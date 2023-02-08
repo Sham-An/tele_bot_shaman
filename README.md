@@ -1,3 +1,10 @@
+source venv37/bin/activate
+. /opt/PycharmProjects/tele_bot/venv37/bin/activate
+cd avito_parser_django/avito
+python manage.py runserver
+
+/admin vladimir:111
+
 Описание
 ========
 

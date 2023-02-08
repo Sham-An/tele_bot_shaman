@@ -7,10 +7,13 @@ import requests
 from django.core.management.base import BaseCommand
 from django.core.management.base import CommandError
 
-from aparser.constants import STATUS_NEW
-from aparser.constants import STATUS_READY
+#from aparser.constants import STATUS_NEW
+#from aparser.constants import STATUS_READY
 from aparser.models import Product
 from aparser.models import Task
+
+STATUS_NEW = 1
+STATUS_READY = 2
 
 
 logger = getLogger(__name__)
